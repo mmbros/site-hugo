@@ -8,8 +8,10 @@ title = "About this site"
 
 ## Tecnologia utilizzata
 
-- [Hugo](gohugo.io) static site generator
-    - [Hugo theme](http://themes.gohugo.io/beautifulhugo/)
+### [Hugo](gohugo.io) static site generator
 
-- Deploying the blog to github pages
-    - [Deploy your blog to github pages automatically using Hugo and Travis](http://rcoedo.com/post/hugo-static-site-generator/)
+- [Theme: Beautiful Hugo](http://themes.gohugo.io/beautifulhugo/)
+
+
+### Deploying the blog to GitHub
+
