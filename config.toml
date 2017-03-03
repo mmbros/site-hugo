@@ -1,0 +1,59 @@
+# directories
+contentDir = "content"
+layoutDir = "layouts"
+publishDir = "public"
+themesDir = "themes"
+
+buildDrafts = true
+
+baseURL = "http://mmbros.github.io/"
+languageCode = "it"
+
+canonifyURLs = true
+
+
+title = "MMbros"
+theme = "beautifulhugo"
+
+
+pygmentsUseClasses = true
+pygmentCodeFences = true
+#disqusShortname = "XXX"
+#googleAnalytics = "XXX"
+
+[Params]
+  subtitle = "Raccolta indifferenziata della qualunque"
+  logo = "img/avatar-icon.png"
+  favicon = "img/favicon.ico"
+  commit = false
+
+[Author]
+  name = "MMbros"
+  email = "server.mmbros@yandex.com"
+#  facebook = "username"
+#  googleplus = "+username" # or xxxxxxxxxxxxxxxxxxxxx
+  github = "mmbros"
+#  twitter = "username"
+#  reddit = "username"
+#  linkedin = "username"
+#  xing = "username"
+#  stackoverflow = "users/XXXXXXX/username"
+#  snapchat = "username"
+#  instagram = "username"
+#  youtube = "user/username" # or channel/channelname
+#  soundcloud = "username"
+#  spotify = "username"
+#  bandcamp = "username"
+#  itchio = "username"
+
+[[menu.main]]
+    name = "Blog"
+    url = "/"
+    weight = 1
+
+
+[[menu.main]]
+    name = "Tags"
+    url = "/tags"
+    weight = 3
+
