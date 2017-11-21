@@ -1,11 +1,10 @@
 ---
-title: "Raspberry PI"
+title: "Samba"
 date: 2017-11-15T20:28:15+01:00
 subtitle: ""
-tags: ["raspberrypi"]
+tags: ["samba"]
 ---
 
-## Samba
 
 ### Installazione
 
