@@ -2,7 +2,7 @@
 date = "2015-10-31T23:12:13+01:00"
 draft = true
 title = "The Go Programming Language"
-tags = ["golang", "programming-language"]
+tags = ["golang", "programming-language", "install"]
 +++
 
 Go is an open source programming language that makes it easy to build simple,
@@ -23,16 +23,16 @@ For full install instruction see [Getting Started](https://golang.org/doc/instal
 [Download the archive](https://golang.org/dl/) and extract the archive into the destination folder.
 For example extract the archive into `$HOME/local`, creating a Go tree in `$HOME/local/go`:
 
-    tar -C $HOME/local -xzf go$VERSION.$OS-$ARCH.tar.gz
+    tar -C $HOME/.local -xzf go$VERSION.$OS-$ARCH.tar.gz
 
-Assuming that `$HOME/local/bin` is in `$PATH`,
-create in the `$HOME/local/bin` folder the symlinks to the `$HOME/local/go/bin` files:
+Assuming that `$HOME/.local/bin` is in `$PATH`,
+create in the `$HOME/.local/bin` folder the symlinks to the `$HOME/.local/go/bin` files:
 
-    for i in $HOME/local/go/bin/\*; do ln -s "$i" $(basename "$i"); done
+    for i in $HOME/.local/go/bin/*; do ln -s "$i" $(basename "$i"); done
 
 Add the following commands to $HOME/.profile:
 
-    export GOROOT=$HOME/local/go
+    export GOROOT=$HOME/.local/go
     export GOPATH=$HOME/Code/go
 
 Note: `GOROOT` must be set only when installing to a custom location.
