@@ -51,6 +51,10 @@ two lines to `/etc/exports`
 
 ## Client
 
+Install the required packages:
+
+     # apt-get install nfs-common
+
 ### fstab
 
 #### Delaying a NFS mount in `/etc/fstab` on system boot.
